@@ -1,0 +1,35 @@
+.card-person
+	width: 100%
+	max-width: 300px
+	text-align: center
+	
+	&__banner
+		width: 260px
+		height: 260px
+		margin: 0 auto 25px
+		overflow: hidden
+	
+	&__name
+		margin-bottom: 8px
+		font-size: 18px
+		font-weight: 500
+	
+	&__post
+		font-size: 12px
+		text-transform: uppercase
+		margin-bottom: 25px
+	
+	&__descr
+		line-height: 1.4
+		margin-bottom: 35px
+	
+	&__social
+
+		a 
+			+trs 
+
+			&:hover
+				transform: translateY(-5px)
+
+			&:not(:last-child)
+				margin-right: 10px
